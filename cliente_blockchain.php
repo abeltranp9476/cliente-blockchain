@@ -1,7 +1,7 @@
 <?php
 use GuzzleHttp\Client as HttpClient;
 
-class cBlockchain
+class cBlockChain
 {   
     protected $apiVersion=1;
     protected $url= 'https://blockchain.detecton.us/api';
@@ -9,9 +9,9 @@ class cBlockchain
     public function create_invoice($data){
         try
         {
-        $point= 'create';
+        $endPoint= 'create';
         $client = new HttpClient();
-        $res = $client->request('GET', $this->url.'/v'.$this->apiVersion.'/'.$point, ['query' => $data]);
+        $res = $client->request('GET', $this->url.'/v'.$this->apiVersion.'/'.$endPoint, ['query' => $data]);
           return $res->getStatusCode();
         } catch(Exception $ex) {
             //echo $ex;
