@@ -7,10 +7,10 @@
 
 ```
 $data= [
-    'security_word' => $data['securityWord'], /* Palabra de seguridad */
-    'address' => $data['address'], /* Direccion (clave publica) de la wallet  */
-    'amount' => $data['amount'], /* Monto de la transaccion */
-    'invoice_id' => $data['invoice_id'] /* Identificador de su orden */
+    'security_word' => '', /* Palabra de seguridad */
+    'address' => '', /* Direccion (clave publica) de la wallet  */
+    'amount' => '', /* Monto de la transaccion */
+    'invoice_id' => '' /* Identificador de su orden */
 ];
 
 ```
