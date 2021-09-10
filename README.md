@@ -23,6 +23,22 @@ $data= [
 
 ```
 
+## Ejemplo de uso 
+
+```
+include("cliente_blockchain.php"); /* Cargue la clase desde la ubicacion en que usted la tenga */
+
+$cBlockChain= new cBlockChain();
+$cBlockChain->create_invoice([
+    'token' => 'abcdefghijklmnopqrstuvwxyz',
+    'securityWord' => 'clavedeseguridad',
+    'address' => $address,
+    'amount'  => $price,
+    'invoice_id' => $idInvoice
+]);
+
+```
+
 
 ## Respuesta del webhook
 
