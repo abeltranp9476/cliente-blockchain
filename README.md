@@ -1,3 +1,9 @@
+### Criptomonedas soportadas
+
+- Bitcoin (BTC)
+- Litecoin (LTC)
+- Bitcoincash (BCH)
+
 ### Requerimientos
 
 - PHP version >= 7.3
