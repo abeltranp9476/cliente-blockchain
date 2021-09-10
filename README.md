@@ -2,6 +2,7 @@
 
 - PHP version >= 7.3
 - Composer
+- guzzlehttp/guzzle
 
 ## Datos a enviar
 
