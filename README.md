@@ -7,6 +7,7 @@
 
 ```
 $data= [
+    'token' => '' /* Su token */
     'security_word' => '', /* Palabra de seguridad */
     'address' => '', /* Direccion (clave publica) de la wallet  */
     'amount' => '', /* Monto de la transaccion */
