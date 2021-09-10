@@ -1,5 +1,6 @@
 ## Datos a enviar
 
+```
 $data= [
     'security_word' => $data['securityWord'],
     'address' => $data['address'],
@@ -7,3 +8,4 @@ $data= [
     'invoice_id' => $data['invoice_id']
 ];
 
+```
