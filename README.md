@@ -21,9 +21,9 @@ $data= [
 - La respuesta viene como solicitud tipo GET con los siguientes datos:
 
 ```
-**securityWord** (string)
-**invoice_id** (string)
-**isPayed** (string : 'true' or string : 'false')
-**isConfirmed**  (string : 'true' or string : 'false')
+securityWord (string)
+invoice_id (string)
+isPayed (string : 'true' or string : 'false')
+isConfirmed  (string : 'true' or string : 'false')
 
 ```
