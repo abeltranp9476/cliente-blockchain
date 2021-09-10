@@ -51,3 +51,7 @@ isPayed (string : 'true' or string : 'false') /* Si el pago fue registrado en la
 isConfirmed  (string : 'true' or string : 'false') /* Si el pago tiene 6 o mas confirmaciones devuelve true */
 
 ```
+
+## Info para comprobar funcionamiento
+
+Mande a comprobar que existe un pago de **0.0001923** BTC a la direccion: **1ACorxkWSD7mx7V6MuLjXE5W7p3w9VyUYa**
