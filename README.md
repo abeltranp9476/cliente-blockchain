@@ -47,7 +47,7 @@ $cBlockChain->create_invoice([
 ```
 securityWord (string) /* Este dato sirve para autenticar la respuesta */
 invoice_id (string) 
-isPayed (string : 'true' or string : 'false') /* Si el pago fue registrado en la blockchain devueve true */
+isPayed (string : 'true' or string : 'false') /* Si el pago fue registrado en la blockchain devuelve true */
 isConfirmed  (string : 'true' or string : 'false') /* Si el pago tiene 6 o mas confirmaciones devuelve true */
 
 ```
