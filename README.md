@@ -1,3 +1,8 @@
+### Requerimientos
+
+- PHP version >= 7.3
+- Composer
+
 ## Datos a enviar
 
 ```
