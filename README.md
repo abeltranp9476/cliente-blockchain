@@ -45,9 +45,9 @@ $cBlockChain->create_invoice([
 - La respuesta viene como solicitud tipo GET con los siguientes datos:
 
 ```
-securityWord (string)
-invoice_id (string)
-isPayed (string : 'true' or string : 'false')
-isConfirmed  (string : 'true' or string : 'false')
+securityWord (string) /* Este dato sirve para autenticar la respuesta */
+invoice_id (string) 
+isPayed (string : 'true' or string : 'false') /* Si el pago fue registrado en la blockchain devueve true */
+isConfirmed  (string : 'true' or string : 'false') /* Si el pago tiene 6 o mas confirmaciones devuelve true */
 
 ```
