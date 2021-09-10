@@ -3,7 +3,6 @@ use GuzzleHttp\Client as HttpClient;
 
 class cBlockChain
 {
-    protected $apiVersion=1;
 
     public function create_invoice($data)
     {
