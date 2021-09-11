@@ -1,5 +1,34 @@
 {
-    "require": {
+	"name": "abeltranp9476/cliente-blockchain",
+	"description": "Librería PHP para generar direcciones de criptomonedas",
+	"keywords": [
+		"php",
+		"library",
+        "criptomonedas",
+        "direcciones"
+	],
+	"type": "library",
+	"homepage": "https://github.com/abeltranp9476/cliente-blockchain",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Ariel Beltrán",
+			"email": "abeltran.9476@gmail.com",
+			"homepage": "https://abeltranp94.is-a.dev/"
+		}
+	],
+	"require": {
+		"php": ">=7.3",
         "guzzlehttp/guzzle": "^7.3"
-    }
+	},
+	"autoload": {
+		"psr-4": {
+			"Cripto\\": "lib"
+		}
+	},
+	"config": {
+		"sort-packages": true
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
 }

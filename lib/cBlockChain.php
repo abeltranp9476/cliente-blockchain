@@ -1,4 +1,6 @@
 <?php
+namespace Cripto;
+
 use GuzzleHttp\Client as HttpClient;
 
 class cBlockChain
