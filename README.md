@@ -26,8 +26,8 @@ $data= [
 ## Ejemplo de uso 
 
 ```
-include("cliente_blockchain.php"); /* Cargue la clase desde la ubicacion en que usted la tenga */
-
+require_once __DIR__ . '/vendor/autoload.php';
+use Cripto\cBlockChain;
 $cBlockChain= new cBlockChain();
 $cBlockChain->create_invoice([
     'token' => 'abcdefghijklmnopqrstuvwxyz',
