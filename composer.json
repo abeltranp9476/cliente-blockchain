@@ -1,6 +1,6 @@
 {
 	"name": "abeltranp9476/cliente-blockchain",
-	"description": "Librería PHP consuir API de blockchain.detecton.us",
+	"description": "Librería PHP consumir API de blockchain.detecton.us para comprobar pagos automaticamente.",
 	"keywords": [
 		"php",
 		"library",
