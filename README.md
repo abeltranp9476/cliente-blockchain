@@ -23,6 +23,13 @@ $data= [
 
 ```
 
+### Instalación
+- Instalar el paquete a través de Composer
+
+```
+composer require abeltranp9476/cliente-blockchain
+```
+
 ## Ejemplo de uso 
 
 ```
