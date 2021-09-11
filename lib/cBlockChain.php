@@ -4,7 +4,7 @@ namespace Cripto;
 use GuzzleHttp\Client as HttpClient;
 
 class cBlockChain
-{   
+{
     protected $apiVer= 1;
     protected $url= 'https://blockchain.detecton.us/api';
     
@@ -17,7 +17,7 @@ class cBlockChain
         $client = new HttpClient();
         $res = $client->request('GET', $url, ['query' => $data]);
           return $res->getStatusCode();
-        } catch(Exception $ex) {
+        } catch(\Exception $ex) {
             //echo $ex;
         }
     }
