@@ -1,6 +1,6 @@
 {
 	"name": "abeltranp9476/cliente-blockchain",
-	"description": "Librería PHP para generar direcciones de criptomonedas",
+	"description": "Librería PHP consuir API de blockchain.detecton.us",
 	"keywords": [
 		"php",
 		"library",
