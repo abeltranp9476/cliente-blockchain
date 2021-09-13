@@ -15,8 +15,7 @@
 ## Datos a enviar
 
 ```
-$data= [
-    'token' => '', /* Su token */
+$data= [   
     'security_word' => '', /* Palabra de seguridad */
     'address' => '', /* Direccion (clave publica) de la wallet  */
     'amount' => '', /* Monto de la transaccion */
@@ -37,9 +36,8 @@ composer require abeltranp9476/cliente-blockchain
 ```
 require_once __DIR__ . '/vendor/autoload.php';
 use Cripto\cBlockChain;
-$cBlockChain= new cBlockChain();
+$cBlockChain= new cBlockChain('abcdefghijklmnopqrstuvwxyz'); /* Se le pasa el token al constructor de la clase */
 $cBlockChain->create_invoice([
-    'token' => 'abcdefghijklmnopqrstuvwxyz',
     'securityWord' => 'clavedeseguridad',
     'address' => $address,
     'amount'  => $price,
