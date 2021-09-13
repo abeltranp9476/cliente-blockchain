@@ -3,6 +3,8 @@
 - Bitcoin (BTC)
 - Litecoin (LTC)
 - Bitcoincash (BCH)
+- Dash (DASH)
+- Zcash (ZEC)
 
 ### Requerimientos
 
