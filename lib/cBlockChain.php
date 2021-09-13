@@ -9,7 +9,7 @@ class cBlockChain
     protected $url= 'https://blockchain.detecton.us/api';
     private $token= '';
 
-    private function __construct($token)
+    public function __construct($token)
     {
         $this->token= $token;
     }
