@@ -1,6 +1,6 @@
 
 ## Que es esto?
-cBlockchain es un cliente escrito en PHP para hacer uso de la pararela de pagos criptos que he desarrollado. Este cliente cuenta con 2 funciones:
+cBlockchain es un cliente escrito en PHP para hacer uso de la <a href= "https://blockchain.detecton.us">pararela de pagos criptos que he desarrollado</a>. Este cliente cuenta con 2 funciones:
 
 - **create_invoice**
 
