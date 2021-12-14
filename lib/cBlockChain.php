@@ -29,4 +29,19 @@ class cBlockChain
         }
     }
 
+    public function create_invoice_from_pub($data)
+    {
+        try
+        {
+        $endPoint= 'create_pub'; /* Endpoint del API */
+        $url= $this->url . '/v' . $this->apiVer . '/' . $endPoint;
+        $data['token']= $this->token;
+        $client = new HttpClient();
+        $res = $client->request('GET', $url, ['query' => $data]);
+            return $res->getStatusCode();
+        } catch(\Exception $ex) {
+            //echo $ex;
+        }
+    }
+
 }
