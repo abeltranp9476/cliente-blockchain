@@ -6,13 +6,21 @@ cBlockchain es un cliente escrito en PHP para hacer uso de la pararela de pagos 
 
 Esta funcion es para usuarios que deseen manejar todo el algoritmo de generacion de direcciones y reciclaje por su cuenta. Esto hace que sea mas complejo integrar los pagos en su web, pero le permite tener total seguridad. Solamente mi servicio se encargaria de notificar cuando a determinada direccion le llegue determinado monto mediante un webhook.
 
+### Criptomonedas soportadas y su identificador
+
+- Bitcoin (btc)
+- Litecoin (ltc)
+- Bitcoincash (bch)
+- Dash (dash)
+- Zcash (zcash)
+
 ### Datos a enviar
 
 ```
 $data= [   
     'security_word' => '', /* Palabra de seguridad */
     'address' => '', /* Direccion (clave publica) de la wallet  */
-    'amount' => '', /* Monto de la transaccion */
+    'amount' => '', /* Monto de la transaccion en la cripto correspondiente a la direccion */
     'invoice_id' => '' /* Identificador de su orden */
 ];
 
@@ -37,16 +45,24 @@ La otra funcion es:
 
 - **create_invoice_from_pub**
 
+### Criptomonedas soportadas y su identificador
+
+- Bitcoin (btc)
+- Litecoin (ltc)
+- Dash (dash)
+- Zcash (zcash)
+
 Esta es la opcion mas facil de implementar, puesto que simplifica mucho el trabajo. De esta manera, mi sistema se encarga de todo lo relacionado con el pago. Usted envia una peticion donde envia:
 
 ### Datos a enviar
 
 ```
 $data= [   
-    'description' => '', /* Palabra de seguridad */
-    'pub' => '', /* Direccion (clave publica) de la wallet  */
-    'security_word' => '', /* Monto de la transaccion */
-    'amount' => '', /* Identificador de su orden */
+    'description' => '', /* Descripcion de la factura*/
+    'pub' => '', /* MasterKey de la criptomoneda en su wallet  */
+    'cripto' => '', /* Identificador de la criptomoneda  */
+    'security_word' => '', /* Palabra de seguridad */
+    'amount' => '', /* Monto en USD */
     'invoice_id' => '', /* Identificador de su orden */
 ];
 
