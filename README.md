@@ -93,13 +93,6 @@ De manera muy sencilla, obtiene como resultado de esa peticion una respuesta jso
 
 Solo debe redireccionar en caso de haber sido satisfactorio, hacia la url que viene en **payment**. Esto lleva hacia un formulario con toda la informacion para que su cliente efectue el pago.
 
-### Criptomonedas soportadas
-
-- Bitcoin (BTC)
-- Litecoin (LTC)
-- Bitcoincash (BCH)
-- Dash (DASH)
-- Zcash (ZEC)
 
 ### Requerimientos
 
